@@ -40,3 +40,5 @@ jobs:
           
       - name: Publish Release
         run: ./scripts/release.nu
+        env: 
+          GH_TOKEN: ${{ github.token }}
