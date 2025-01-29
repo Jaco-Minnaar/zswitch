@@ -15,6 +15,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+    
+    - name: Add WASM target
+      run: rustup target install wasm32-wasip1 
       
     - name: Build
       run: cargo build --verbose
