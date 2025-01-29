@@ -1,0 +1,8 @@
+[package]
+name = "zswitch"
+version = "0.1.0"
+authors = ["Jaco Minnaar <jaco@jacominnaar.com>"]
+edition = "2021"
+
+[dependencies]
+zellij-tile = "0.41.2"
